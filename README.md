@@ -1,143 +1,128 @@
-<div align="center">
+# Sai Teja Kusireddy
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Teja%20Kusireddy&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Building%20the%20infrastructure%20AI%20agents%20run%20on&descSize=16&descAlignY=55" />
+Backend / AI Infrastructure Engineer focused on distributed systems, reliability, observability, and LLM infrastructure.
 
-</div>
+M.S. Computer Science student at Pace University. Previously Software Engineer at Tata Consultancy Services. Currently building production-grade AI agent infrastructure at GetOnStack.
 
-<div align="center">
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=3000&pause=800&color=58A6FF&center=true&vCenter=true&multiline=true&width=600&height=80&lines=Founding+Engineer+%40+GetOnStack;MS+CS+%40+Pace+University+%7C+4.0+GPA;300K%2B+Medium+readers+%7C+New+York+City)](https://git.io/typing-svg)
-
-</div>
+[Portfolio](YOUR_PORTFOLIO_LINK) · [LinkedIn](https://www.linkedin.com/in/sai-teja-kusireddy/) · [Medium](https://medium.com/@tejakusireddy) · [Email](mailto:saiteja.kusireddy@gmail.com)
 
 ---
 
-## whoami
+## Open Source Contributions
 
-I'm the person who watched **$47,000 disappear** into an AI agent loop in production — and then built a company to make sure it never happens to anyone else.
+Contributed 6 test-backed fixes across AWS CDK and Microsoft AI/cloud OSS, including Semantic Kernel, Agent Framework, ai4s-jobq, and Multicloud DB SDK.
 
-Currently building **[GetOnStack](https://getonstack.com)** — observability, loop detection, and cost control for multi-agent AI systems. Think Datadog, but for your AI agents that go rogue at 3am.
+| Area | Contribution Focus |
+|---|---|
+| AWS CDK | CloudFormation token handling |
+| Semantic Kernel | Agent orchestration reliability |
+| Agent Framework | YAML / parser correctness |
+| ai4s-jobq | Distributed queue workflow reliability |
+| Multicloud DB SDK | Parser safety limits and cloud database error semantics |
 
-By day: Founding Engineer + grad student (somehow maintaining a 4.0 while doing both)  
-By night: Writing about the parts of AI nobody wants to admit out loud — **300,000+ reads** and counting
-
-I'm open to **every role** that lets me build real things with real impact — SWE, Platform Eng, AI Infrastructure, DevOps, full-stack, whatever. If you're building something interesting, I want to talk.
-
----
-
-##  Things I've Built
-
-###  [GetOnStack](https://github.com/tejakusireddy/getonstack) — AI Agent Infrastructure
-The company I'm building. Production observability for multi-agent systems.
-
-What it does that nothing else does: detects agent loops **at the conversation level** before they drain your budget, attributes costs across every agent in a pipeline, and gives you the monitoring layer that LangChain and CrewAI ship without.
-
-Born from a real $47,000 mistake. Built so you don't have to make yours.
-
-`Python` `GCP` `LangChain` `CrewAI` `Distributed Systems` `Observability`
+Focus areas: cloud infrastructure, AI agent orchestration, distributed workflows, parser correctness, and production reliability.
 
 ---
 
-###  [FalconQ](https://github.com/tejakusireddy/FalconQ-distributed-message-queue) — Distributed Message Queue in Go ⭐ 7
-Kafka-inspired, built from scratch. Because sometimes you learn more by building the thing than reading about it.
+## Featured Engineering Work
 
-Multi-broker replication, leader election, priority queues, consumer groups, real-time monitoring. Handles 100K+ messages/sec under load.
+### ForgeAI — AI Inference Gateway
 
-`Go` `Distributed Systems` `Fault Tolerance` `Replication`
+OpenAI-compatible inference gateway for model routing, retrieval-augmented generation, and AI cost optimization.
 
----
+**Tech:** Python, FastAPI, gRPC, vLLM, Qdrant, Redis, PostgreSQL, Kubernetes
 
-###  [SASE Control Plane](https://github.com/tejakusireddy/sase-control-plane) — Zero-Trust Network Architecture ⭐ 3
-Cloud-native multi-tenant SASE control plane. Zero-Trust policy engine + distributed edge gateways + real-time access enforcement.
-
-Sub-10ms policy decisions via Redis. Full data isolation per tenant. The kind of thing that gets you past the HPE Juniper phone screen.
-
-`TypeScript` `Node.js` `Redis` `MySQL` `MongoDB`
+**Highlights**
+- Contextual-bandit routing for model selection
+- RAG support with vector retrieval
+- Semantic caching and request optimization
+- Achieved 72.9% lower inference cost at 94ms p50 latency on NVIDIA H100
 
 ---
 
-###  [Network Test Automation Framework](https://github.com/tejakusireddy/network-test-automation)
-Enterprise-grade automated testing for network infrastructure. OSPF, BGP, MPLS validation with CI/CD integration. Built to speak network engineer fluently.
+### FalconQ — Distributed Messaging Queue
 
-`Python` `Pytest` `Network Engineering` `CI/CD`
+Distributed messaging queue built in Go with partitioned topics, consistent hashing, replication, and observability.
 
----
+**Tech:** Go, AWS EKS, Raft, Terraform, Prometheus, Grafana
 
-###  [Structured Extraction Pipeline](https://github.com/tejakusireddy/structured-extraction-pipeline)
-A production-grade legal document intelligence engine that ingests court opinions, extracts structured intelligence using LLMs, builds a citation graph to detect circuit splits, and exposes it all via a FastAPI service.
-
-`Python` `LangChain` `OpenAI` `Pydantic` `OCR`
-
----
-
-## 📝 Writing — 300,000+ Readers on Medium
-
-I write about AI infrastructure, production disasters, and the economics of building with LLMs. Real war stories. No fluff.
-
-| Story | Claps | Comments |
-|-------|-------|----------|
-| [I Stopped Using ChatGPT for 30 Days. What Happened to My Brain Was Terrifying.](https://medium.com/@tejakusireddy) | 6,400 | 256 |
-| [We Spent $47,000 Running AI Agents in Production. Here's What Nobody Tells You About A2A and MCP.](https://medium.com/@tejakusireddy) | 4,300 | 142 |
-| [The Real Tech Stack Behind AI Startups: A 200-Company Analysis](https://medium.com/@tejakusireddy) | 3,600 | 102 |
-| [The Genius of Sam Altman: Heads He Wins, Tails You Lose](https://medium.com/@tejakusireddy) | 37 | 3 |
-| [Google Is Quietly Dismantling Everything OpenAI Built](https://medium.com/@tejakusireddy) | 27 | 2 |
-
-*Published in Towards AI · Level Up Coding · Data Science Collective · Artificial Intelligence publication*
-
-📖 **[Read everything → medium.com/@tejakusireddy](https://medium.com/@tejakusireddy)**
+**Highlights**
+- Handles hot-key skew using partitioned topics and consistent hashing
+- Preserves write correctness during load balancing and failover
+- Validated at 1.5M messages/min with p99 latency under 12ms
+- Includes observability for broker and queue behavior
 
 ---
 
-##  Stack
+### Copilot-Style LLM API Platform
 
-```
-AI/Agents    →  LangChain · CrewAI · OpenAI · Anthropic · RAG · Agent Observability
-Languages    →  Python · Go · TypeScript · SQL
-Cloud        →  GCP · Docker · Kubernetes · Redis · PostgreSQL · MySQL · MongoDB
-Monitoring   →  Datadog · Distributed Tracing · Custom Observability Tooling
-DevOps       →  GitHub Actions · CI/CD · Typed codebases · Test-driven everything
-```
+C#/.NET API platform for LLM workflows with streaming, memory, plugin execution, and production-style request handling.
 
----
+**Tech:** C#, .NET 8, Azure OpenAI, Redis, SQL, SSE, xUnit
 
-##  Stats
-
-<div align="center">
-
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=tejakusireddy&show_icons=true&theme=github_dark&hide_border=true&count_private=true&include_all_commits=true" />
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=tejakusireddy&layout=compact&theme=github_dark&hide_border=true&langs_count=6" />
-
-</div>
-
-<div align="center">
-
-![GitHub Streak](https://streak-stats.demolab.com?user=tejakusireddy&theme=github-dark-blue&hide_border=true)
-
-</div>
+**Highlights**
+- SSE streaming for real-time LLM responses
+- Redis-backed memory layer
+- Plugin execution framework
+- Rate limits, idempotency, semantic caching, and xUnit test coverage
 
 ---
 
-##  Currently
+### Structured Extraction Pipeline
 
-- **Founding Engineer** @ [GetOnStack](https://getonstack.com) — building in production every day
-- **MS Computer Science** @ Pace University, New York — 4.0 GPA (yes, while doing the above)
-- Coursework: Distributed Systems · Computational Statistics · AI/ML · Cybersecurity
-- **Writing** — next deep-dive incoming: architecture diagrams, real benchmarks, actual systems thinking
+Vector retrieval and structured extraction pipeline for semantic search across large legal document collections.
+
+**Tech:** Python, FastAPI, PostgreSQL, Qdrant, OpenAI, Terraform, GCP
+
+**Highlights**
+- Semantic search over 10M+ legal documents
+- FastAPI service layer for retrieval and extraction
+- Strict typing and CI/CD ingestion gates
+- Retrieval-first architecture for reliable document intelligence
 
 ---
 
-##  Let's Talk
+## Experience Snapshot
 
-Open to any role where I get to build things that matter — SWE, AI/ML Engineering, Platform, Infrastructure, DevOps, full-stack, whatever. If the tech is interesting and the team ships, I'm interested.
+**Founding Engineer — GetOnStack**  
+Building AI agent infrastructure focused on observability, cost control, loop detection, and production reliability.
 
-<div align="center">
+**Software Engineer — Tata Consultancy Services**  
+Built backend services, cloud automation, observability systems, RAG workflows, and reliability tooling across production environments.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sai-teja-kusireddy/)
-[![Medium](https://img.shields.io/badge/Medium-300K+%20Reads-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@tejakusireddy)
-[![Email](https://img.shields.io/badge/Email-Say%20Hi-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:saiteja.kusireddy@gmail.com)
+**M.S. Computer Science — Pace University**  
+Coursework: Distributed Systems, Cloud Infrastructure, Operating Systems, Machine Learning, Systems Security, Algorithms.
 
-</div>
+**Certification**  
+AWS Certified Solutions Architect – Associate
 
-<div align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" />
-</div>
+---
+
+## Technical Writing
+
+Selected technical writing on AI infrastructure, agent reliability, and production LLM systems.
+
+- “We Spent $47,000 Running AI Agents in Production” — 92K+ views
+- Essays on AI runtime reliability, agent observability, LLM infrastructure, and production failure modes
+
+[Read on Medium](https://medium.com/@tejakusireddy)
+
+---
+
+## Tech Stack
+
+**Languages:** Java, Python, Go, TypeScript, C#, C++, SQL, Bash  
+**Backend:** REST, gRPC, Kafka, Redis, Spring Boot, FastAPI, .NET, PostgreSQL  
+**Cloud / Infra:** AWS, Azure, GCP, Kubernetes, Docker, Terraform, Helm, GitHub Actions  
+**Observability:** Prometheus, OpenTelemetry, Grafana, Splunk  
+**AI / LLM:** Azure OpenAI, LangChain, vLLM, Qdrant, RAG, semantic caching  
+**Testing:** JUnit, PyTest, xUnit, Postman  
+
+---
+
+## Contact
+
+- LinkedIn: [linkedin.com/in/sai-teja-kusireddy](https://www.linkedin.com/in/sai-teja-kusireddy/)
+- GitHub: [github.com/tejakusireddy](https://github.com/tejakusireddy)
+- Medium: [medium.com/@tejakusireddy](https://medium.com/@tejakusireddy)
+- Email: [saiteja.kusireddy@gmail.com](mailto:saiteja.kusireddy@gmail.com)

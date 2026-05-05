@@ -1,4 +1,4 @@
-# Sai Teja Kusireddy
+# Teja Kusireddy
 
 Backend / AI Infrastructure Engineer focused on distributed systems, reliability, observability, and LLM infrastructure.
 

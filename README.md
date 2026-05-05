@@ -26,21 +26,21 @@ Focus areas: cloud infrastructure, AI agent orchestration, distributed workflows
 
 ## Featured Engineering Work
 
-### ForgeAI — AI Inference Gateway
+### [ForgeAI](https://github.com/tejakusireddy/forgeai) — AI Inference Gateway
 
 OpenAI-compatible inference gateway for model routing, retrieval-augmented generation, and AI cost optimization.
 
 **Tech:** Python, FastAPI, gRPC, vLLM, Qdrant, Redis, PostgreSQL, Kubernetes
 
 **Highlights**
-- Contextual-bandit routing for model selection
-- RAG support with vector retrieval
-- Semantic caching and request optimization
+- Built contextual-bandit routing for model selection
+- Added RAG support with vector retrieval
+- Added semantic caching and request optimization
 - Achieved 72.9% lower inference cost at 94ms p50 latency on NVIDIA H100
 
 ---
 
-### FalconQ — Distributed Messaging Queue
+### [FalconQ](https://github.com/tejakusireddy/FalconQ-distributed-message-queue) — Distributed Messaging Queue
 
 Distributed messaging queue built in Go with partitioned topics, consistent hashing, replication, and observability.
 
@@ -54,31 +54,60 @@ Distributed messaging queue built in Go with partitioned topics, consistent hash
 
 ---
 
-### Copilot-Style LLM API Platform
+### [Copilot Plugin API](https://github.com/tejakusireddy/copilot-plugin-api) — Copilot-Style LLM API Platform
 
 C#/.NET API platform for LLM workflows with streaming, memory, plugin execution, and production-style request handling.
 
 **Tech:** C#, .NET 8, Azure OpenAI, Redis, SQL, SSE, xUnit
 
 **Highlights**
-- SSE streaming for real-time LLM responses
-- Redis-backed memory layer
-- Plugin execution framework
-- Rate limits, idempotency, semantic caching, and xUnit test coverage
+- Built SSE streaming for real-time LLM responses
+- Added Redis-backed memory for workflow state
+- Built plugin execution support for tool-based workflows
+- Added rate limits, idempotency, semantic caching, and xUnit test coverage
 
 ---
 
-### Structured Extraction Pipeline
+### [OpenGPU Lab](https://github.com/tejakusireddy/gpu-systems-compiler-runtime-rtl) — CPU/CUDA/RTL GPU Execution Stack
+
+End-to-end GPU systems lab with CPU, CUDA, and RTL backends, plus a GPU optimization CLI for roofline-guided kernel analysis.
+
+**Tech:** C++, CUDA, Verilog, SystemVerilog, Verilator, Icarus Verilog, CMake, Python
+
+**Highlights**
+- Built a unified C++ runtime across CPU, CUDA, and RTL backends
+- Achieved 0.0 max-error parity across backend outputs
+- Built `gpuopt`, a CLI for roofline modeling and memory-access analysis
+- Improved arithmetic intensity from 10.67 to 16.00 FLOPS/byte by adjusting tiling from 48 to 64 and adding shared-memory staging
+- Validated RTL behavior with clock/reset-safe simulation
+
+---
+
+### [Structured Extraction Pipeline](https://github.com/tejakusireddy/structured-extraction-pipeline) — Legal Document Intelligence
 
 Vector retrieval and structured extraction pipeline for semantic search across large legal document collections.
 
 **Tech:** Python, FastAPI, PostgreSQL, Qdrant, OpenAI, Terraform, GCP
 
 **Highlights**
-- Semantic search over 10M+ legal documents
-- FastAPI service layer for retrieval and extraction
-- Strict typing and CI/CD ingestion gates
-- Retrieval-first architecture for reliable document intelligence
+- Built semantic search over 10M+ legal documents
+- Added FastAPI service layer for retrieval and extraction
+- Added strict typing and CI/CD ingestion gates
+- Designed a retrieval-first architecture for reliable document intelligence
+
+---
+
+### [Trade Settlement Commentary Engine](https://github.com/tejakusireddy/trade-settlement-commentary-engine) — Event-Driven Settlement Analysis
+
+Event-driven trade settlement system with idempotent consumers, DLQ retries, and AI-assisted commentary generation.
+
+**Tech:** Java 21, Spring Boot, Kafka, PostgreSQL, Redis, Claude API
+
+**Highlights**
+- Built Kafka-based settlement processing workflow
+- Added idempotent consumers for repeat-safe event handling
+- Added DLQ retries for failure isolation and recovery
+- Reduced analysis time from ~20 min to under 10 sec
 
 ---
 
